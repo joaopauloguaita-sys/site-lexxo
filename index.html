@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lexxo Sistemas — sistema para lanchonetes, restaurantes e delivery</title>
+<meta name="description" content="Lexxo: cardápio online, mesas, cozinha, caixa e delivery num só sistema, para lanchonetes, restaurantes e pizzarias. Teste grátis por 14 dias.">
+<meta name="theme-color" content="#070B2E">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #070B2E; --navy-2: #0E1440; --blue: #0B3BF5; --magenta: #D21DF0; --cyan: #00D9F0;
+  --paper: #F5F6FB; --ink: #141833; --muted: #5B6180; --line: #DCE0EE; --receipt: #FFFDF8;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--body); color: var(--ink); background: var(--paper); line-height: 1.6; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 22px; }
+
+/* Topo */
+.top { background: var(--navy); color: #fff; }
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: .01em; }
+.brand img { width: 34px; }
+.nav-links { display: flex; gap: 18px; align-items: center; font-size: .95rem; }
+.nav-links a { text-decoration: none; color: #C9CFF2; }
+.nav-links a:hover { color: #fff; }
+.btn { display: inline-block; text-decoration: none; font-weight: 700; border-radius: 999px; padding: 13px 22px; font-size: 1rem; transition: transform .15s ease, box-shadow .15s ease; }
+.btn:hover { transform: translateY(-1px); }
+.btn-wa { background: #25D366; color: #06210F; box-shadow: 0 6px 18px rgba(37,211,102,.25); }
+.btn-line { border: 2px solid rgba(255,255,255,.5); color: #fff; }
+.btn-line:hover { border-color: #fff; }
+.btn-sm { padding: 9px 16px; font-size: .9rem; }
+
+/* Hero: a comanda */
+.hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; padding: 40px 0 72px; }
+.hero h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.2rem, 5.2vw, 3.9rem); line-height: 1.02; letter-spacing: -.02em; margin: 0 0 18px; }
+.hero p.lead { font-size: 1.15rem; color: #C9CFF2; max-width: 34em; margin: 0 0 28px; }
+.hero .ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero small { display: block; margin-top: 14px; color: #8D95C9; }
+.ticket-stage { position: relative; display: flex; justify-content: center; }
+.ticket-stage::before { content: ""; position: absolute; inset: 8% 6%; background: radial-gradient(closest-side, rgba(11,59,245,.55), rgba(210,29,240,.25) 60%, transparent); filter: blur(30px); }
+.ticket { position: relative; width: min(330px, 100%); background: var(--receipt); color: #1d1d1d; font-family: var(--mono); font-size: .9rem; padding: 22px 22px 30px; transform: rotate(-2.5deg); box-shadow: 0 24px 50px rgba(0,0,0,.45);
+  -webkit-mask: radial-gradient(circle 7px at 50% 100%, transparent 98%, #000) 0 0 / 18px 100% repeat-x; mask: radial-gradient(circle 7px at 50% 100%, transparent 98%, #000) 0 0 / 18px 100% repeat-x; }
+.ticket .t-head { display: flex; justify-content: space-between; font-weight: 600; }
+.ticket .t-sep { border-top: 2px dashed #9a9a9a; margin: 10px 0; }
+.ticket .t-row { display: flex; justify-content: space-between; gap: 12px; }
+.ticket .t-note { font-weight: 600; padding-left: 10px; }
+.ticket .t-strong { font-weight: 600; font-size: 1rem; }
+.ticket .t-stamp { margin-top: 12px; display: inline-block; border: 2px solid var(--blue); color: var(--blue); padding: 2px 8px; font-weight: 600; transform: rotate(-4deg); }
+@media (prefers-reduced-motion: no-preference) {
+  .ticket { animation: print 1.1s cubic-bezier(.2,.8,.2,1) .2s both; }
+  @keyframes print { from { transform: translateY(-36px) rotate(-2.5deg); opacity: 0; clip-path: inset(0 0 100% 0); } to { transform: rotate(-2.5deg); opacity: 1; clip-path: inset(0 0 0 0); } }
+}
+
+/* Seções */
+section { padding: 76px 0; }
+h2 { font-family: var(--display); font-weight: 800; font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.1; letter-spacing: -.015em; margin: 0 0 14px; }
+.intro { max-width: 40em; color: var(--muted); font-size: 1.08rem; margin: 0 0 40px; }
+
+/* Um dia no restaurante (sequência real) */
+.day { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; border-top: 3px solid var(--ink); }
+.day li { padding: 18px 16px 0 0; position: relative; }
+.day .hour { font-family: var(--mono); font-weight: 600; color: var(--blue); font-size: .95rem; }
+.day h3 { font-family: var(--display); font-size: 1.15rem; margin: 6px 0 6px; line-height: 1.2; }
+.day p { margin: 0; color: var(--muted); font-size: .97rem; }
+.day li::before { content: ""; position: absolute; top: -9px; left: 0; width: 15px; height: 15px; border-radius: 50%; background: var(--paper); border: 3px solid var(--ink); }
+
+/* Também tem */
+.also { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px 40px; margin-top: 56px; }
+.also div { border-left: 3px solid var(--line); padding-left: 16px; }
+.also strong { display: block; font-size: 1.02rem; }
+.also span { color: var(--muted); font-size: .95rem; }
+
+/* História */
+.story { background: var(--navy); color: #fff; }
+.story .cols { display: grid; grid-template-columns: .9fr 1.1fr; gap: 56px; align-items: start; }
+.story blockquote { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2; }
+.story p { color: #C9CFF2; font-size: 1.07rem; margin: 0 0 14px; max-width: 36em; }
+
+/* Planos */
+.plans { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 860px; }
+.plan { background: #fff; border: 2px solid var(--line); border-radius: 18px; padding: 28px; }
+.plan.featured { border-color: var(--blue); box-shadow: 0 18px 40px rgba(11,59,245,.12); }
+.plan h3 { font-family: var(--display); font-size: 1.4rem; margin: 0; }
+.plan .for { color: var(--muted); margin: 4px 0 18px; }
+.plan .price { font-family: var(--display); font-weight: 800; font-size: 2.6rem; line-height: 1; }
+.plan .price small { font-size: 1rem; font-weight: 500; color: var(--muted); }
+.plan .year { color: var(--muted); margin: 6px 0 18px; font-size: .95rem; }
+.plan ul { margin: 0 0 22px; padding-left: 20px; }
+.plan li { margin: 4px 0; }
+.plan .btn { width: 100%; text-align: center; }
+.btn-blue { background: var(--blue); color: #fff; }
+.btn-ghost { border: 2px solid var(--ink); color: var(--ink); }
+.note { color: var(--muted); font-size: .95rem; margin-top: 22px; max-width: 46em; }
+
+/* Contato */
+.contact { background: linear-gradient(120deg, var(--blue), #3B1BB8 55%, var(--magenta)); color: #fff; text-align: center; }
+.contact h2 { margin-bottom: 10px; }
+.contact p { color: #E6E9FF; font-size: 1.1rem; margin: 0 auto 26px; max-width: 32em; }
+.contact .ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+footer { background: var(--navy); color: #8D95C9; padding: 28px 0; font-size: .92rem; }
+footer .wrap { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+footer a { color: #C9CFF2; }
+
+@media (max-width: 900px) {
+  .hero, .story .cols { grid-template-columns: 1fr; }
+
+  .day { grid-template-columns: 1fr; border-top: 0; border-left: 3px solid var(--ink); padding-left: 18px; }
+  .day li { padding: 0 0 22px 6px; }
+  .day li::before { top: 4px; left: -28px; }
+  .also { grid-template-columns: 1fr 1fr; }
+  .plans { grid-template-columns: 1fr; }
+  .nav-links .hide-sm { display: none; }
+}
+@media (max-width: 560px) { .also { grid-template-columns: 1fr; } section { padding: 56px 0; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="#"><img src="data:image/png;base64,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" alt="">Lexxo</a>
+      <div class="nav-links">
+        <a class="hide-sm" href="#como-funciona">Como funciona</a>
+        <a class="hide-sm" href="#planos">Planos</a>
+        <a class="btn btn-line btn-sm" href="https://food.lexxosistemas.com.br">Entrar no sistema</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div>
+        <h1>O pedido chega, a cozinha vê, o caixa fecha certo.</h1>
+        <p class="lead">O Lexxo junta cardápio online, mesas, cozinha, caixa e delivery num sistema só, feito para lanchonetes, restaurantes e pizzarias que não podem parar no horário de pico.</p>
+        <div class="ctas">
+          <a class="btn btn-wa" href="https://wa.me/5543999371415?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Lexxo%20e%20quero%20saber%20mais%20sobre%20o%20sistema%20para%20o%20meu%20estabelecimento." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          <a class="btn btn-line" href="#planos">Ver os planos</a>
+        </div>
+        <small>14 dias grátis para testar. Sem cartão de crédito.</small>
+      </div>
+      <div class="ticket-stage" aria-hidden="true">
+        <div class="ticket">
+          <div class="t-head"><span>PEDIDO 047</span><span>19:42</span></div>
+          <div>ENTREGA · Jardim Alvorada</div>
+          <div class="t-sep"></div>
+          <div class="t-row t-strong"><span>2x X-SALADA</span><span></span></div>
+          <div class="t-note">&gt;&gt; SEM CEBOLA</div>
+          <div class="t-row"><span>&nbsp;&nbsp;+ bacon</span><span></span></div>
+          <div class="t-row t-strong"><span>1x BATATA G</span><span></span></div>
+          <div class="t-row t-strong"><span>2x REFRI LATA</span><span></span></div>
+          <div class="t-sep"></div>
+          <div class="t-row"><span>Total</span><span>R$ 94,80</span></div>
+          <div class="t-row"><span>Pix</span><span>pago</span></div>
+          <span class="t-stamp">SAIU P/ ENTREGA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="como-funciona">
+    <div class="wrap">
+      <h2>Um dia de movimento, do começo ao fim</h2>
+      <p class="intro">Cada parte da sua loja olha para a mesma tela, na hora certa. Ninguém precisa gritar pedido pela janela da cozinha.</p>
+      <ol class="day">
+        <li><span class="hour">18:00</span><h3>Abre o caixa</h3><p>Troco conferido e a loja pronta para vender.</p></li>
+        <li><span class="hour">19:10</span><h3>O pedido chega</h3><p>Pelo cardápio online, pelo QR Code da mesa ou no balcão, com aviso sonoro.</p></li>
+        <li><span class="hour">19:12</span><h3>A cozinha prepara</h3><p>Cada setor vê só o que é dele, com "sem cebola" em destaque.</p></li>
+        <li><span class="hour">19:35</span><h3>Sai para entrega</h3><p>O entregador recebe no celular, com rota, valor e troco.</p></li>
+        <li><span class="hour">23:30</span><h3>Fecha o caixa</h3><p>Cada forma de pagamento conferida, com sobra ou falta na tela.</p></li>
+      </ol>
+      <div class="also">
+        <div><strong>Funciona sem internet</strong><span>Se a internet cair, o caixa continua vendendo e envia tudo quando ela volta.</span></div>
+        <div><strong>Imprime sozinho</strong><span>Comanda da cozinha e cupom de entrega nas impressoras térmicas comuns.</span></div>
+        <div><strong>Relatórios claros</strong><span>Vendas, horários de pico e produtos que dão mais lucro, em Excel ou PDF.</span></div>
+        <div><strong>Clientes que voltam</strong><span>Cupons, promoções e cartão fidelidade de selos ou pontos.</span></div>
+        <div><strong>Estoque com ficha técnica</strong><span>O custo real de cada lanche e aviso quando um ingrediente acaba.</span></div>
+        <div><strong>No computador e no celular</strong><span>Abre no navegador e pode ser instalado como aplicativo.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="wrap cols">
+      <blockquote>Feito por quem já viveu a correria de um balcão em dia de movimento.</blockquote>
+      <div>
+        <p>O Lexxo nasceu de anos atrás do balcão de uma lanchonete. Pedido anotado errado, comanda perdida, caixa que não fecha: cada tela foi pensada para resolver um problema que acontece de verdade, numa noite de sábado.</p>
+        <p>Por isso as funções mais usadas ficam na mesma tela, sem precisar procurar menu no meio do pico. E o suporte é feito por gente que entende o seu dia, pelo WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="wrap">
+      <h2>Planos</h2>
+      <p class="intro">Teste qualquer plano por 14 dias, com todos os recursos dele. Pagamento mensal por Pix.</p>
+      <div class="plans">
+        <article class="plan">
+          <h3>Básico</h3>
+          <p class="for">Para lanchonetes com balcão e delivery.</p>
+          <div class="price">R$ 49,90 <small>por mês</small></div>
+          <p class="year">ou R$ 499,00 por ano (2 meses grátis)</p>
+          <ul>
+            <li>Cardápio online e pedidos</li>
+            <li>Mesas, cozinha e impressão</li>
+            <li>Delivery e entregadores</li>
+            <li>Caixa e relatórios</li>
+            <li>Cupons e cadastro de clientes</li>
+            <li>Funciona sem internet</li>
+          </ul>
+          <a class="btn btn-ghost" href="https://food.lexxosistemas.com.br/cadastro">Começar o teste grátis</a>
+        </article>
+        <article class="plan featured">
+          <h3>Profissional</h3>
+          <p class="for">Para a operação completa, com salão e equipe.</p>
+          <div class="price">R$ 69,90 <small>por mês</small></div>
+          <p class="year">ou R$ 699,00 por ano (2 meses grátis)</p>
+          <ul>
+            <li>Tudo do Básico</li>
+            <li>Pedido pelo QR Code da mesa</li>
+            <li>Reservas e fila de espera</li>
+            <li>Estoque com ficha técnica</li>
+            <li>Promoções e fidelidade</li>
+            <li>Até 3 filiais</li>
+          </ul>
+          <a class="btn btn-blue" href="https://food.lexxosistemas.com.br/cadastro">Começar o teste grátis</a>
+        </article>
+      </div>
+      <p class="note">Precisa de algo diferente, como uma rede com várias lojas? <a href="https://wa.me/5543999371415?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Lexxo%20e%20quero%20saber%20mais%20sobre%20o%20sistema%20para%20o%20meu%20estabelecimento." target="_blank" rel="noopener">Fale com a gente</a> e montamos um plano sob medida. O Lexxo não emite nota fiscal (NFC-e).</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <h2>Quer ver o Lexxo funcionando?</h2>
+      <p>Chame no WhatsApp e marque uma demonstração de 20 minutos, por chamada de vídeo.</p>
+      <div class="ctas">
+        <a class="btn btn-wa" href="https://wa.me/5543999371415?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Lexxo%20e%20quero%20saber%20mais%20sobre%20o%20sistema%20para%20o%20meu%20estabelecimento." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-line" href="https://instagram.com/lexxosistemas" target="_blank" rel="noopener">Instagram @lexxosistemas</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Lexxo Sistemas. Sistemas sob medida para a sua empresa.</span>
+    <span><a href="https://food.lexxosistemas.com.br/termos">Termos de uso</a> &nbsp; <a href="https://food.lexxosistemas.com.br/privacidade">Privacidade</a> &nbsp; <a href="https://food.lexxosistemas.com.br">Entrar no sistema</a></span>
+  </div>
+</footer>
+</body>
+</html>
