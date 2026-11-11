@@ -3,5 +3,5 @@
 // estiver no ar e o programa de venda pronto.
 window.LEXXO_STUDIO = {
   API: 'https://food.lexxosistemas.com.br/api/studio',
-  VENDAS: false
+  VENDAS: true
 };
