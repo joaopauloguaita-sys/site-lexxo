@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Iuris — sistema de gestão para escritórios de advocacia</title>
+<meta name="description" content="Iuris: clientes, processos, prazos, tarefas, documentos e honorários do seu escritório de advocacia num só lugar. Abre no navegador, sem instalar nada. R$ 49,90 por mês.">
+<meta name="theme-color" content="#070B2E">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="canonical" href="https://lexxosistemas.com.br/iuris/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Lexxo Sistemas">
+<meta property="og:title" content="Iuris — sistema de gestão para escritórios de advocacia">
+<meta property="og:description" content="Clientes, processos, prazos, tarefas, documentos e honorários do seu escritório num só lugar. R$ 49,90 por mês.">
+<meta property="og:url" content="https://lexxosistemas.com.br/iuris/">
+<meta property="og:image" content="https://lexxosistemas.com.br/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+/* Cartão de exemplo do hero (dados fictícios) */
+.proc { position: relative; width: min(360px, 100%); background: #fff; color: var(--ink); border-radius: 18px; padding: 22px 22px 24px; box-shadow: 0 24px 50px rgba(0,0,0,.45); transform: rotate(-2deg); }
+.proc .p-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-family: var(--mono); font-size: .8rem; color: var(--muted); }
+.proc .p-tag { background: #E4E9FF; color: var(--blue); font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+.proc h3 { font-family: var(--display); font-size: 1.25rem; line-height: 1.15; margin: 12px 0 2px; }
+.proc .p-sub { color: var(--muted); font-size: .92rem; margin: 0 0 14px; }
+.proc .p-sep { border-top: 1px solid var(--line); margin: 12px 0; }
+.proc .p-row { display: flex; justify-content: space-between; gap: 12px; font-size: .95rem; margin: 6px 0; }
+.proc .p-row span:first-child { color: var(--muted); }
+.proc .p-row b { text-align: right; }
+.proc .p-prazo { margin-top: 14px; border: 2px solid #D21DF0; color: #8B0FA0; border-radius: 12px; padding: 8px 12px; font-weight: 700; font-size: .95rem; }
+.proc .p-aviso { position: absolute; right: -10px; top: -14px; background: var(--cyan); color: var(--navy); font-family: var(--mono); font-weight: 600; font-size: .75rem; padding: 4px 10px; border-radius: 999px; transform: rotate(4deg); }
+.proc-stage { position: relative; display: flex; justify-content: center; }
+.proc-stage::before { content: ""; position: absolute; inset: 8% 6%; background: radial-gradient(closest-side, rgba(11,59,245,.55), rgba(210,29,240,.25) 60%, transparent); filter: blur(30px); }
+.plan.unico { max-width: 460px; }
+@media (max-width: 900px) { .plan.unico { max-width: none; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="/"><img src="/assets/logo.png" alt="" width="34" height="34">Lexxo <span class="brand-sub">Sistemas</span></a>
+      <div class="nav-links">
+        <a class="hide-sm" href="/#sistemas">Sistemas</a>
+        <a class="hide-sm" href="#como-funciona">Como funciona</a>
+        <a class="hide-sm" href="#planos">Plano</a>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/5543999371415?text=Ol%C3%A1%21%20Vi%20o%20Iuris%20no%20site%20da%20Lexxo%20e%20quero%20saber%20mais." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </nav>
+    <p style="margin:0"><a class="voltar" href="/#sistemas">&larr; Todos os sistemas</a></p>
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Iuris · para escritórios de advocacia</p>
+        <h1>O escritório em ordem: clientes, processos e prazos num só lugar.</h1>
+        <p class="lead">O Iuris organiza o dia a dia do seu escritório de advocacia: cadastro de clientes, processos, compromissos, tarefas da equipe, documentos e honorários. Abre no navegador, sem instalar nada.</p>
+        <div class="ctas">
+          <a class="btn btn-wa" href="https://wa.me/5543999371415?text=Ol%C3%A1%21%20Vi%20o%20Iuris%20no%20site%20da%20Lexxo%20e%20quero%20uma%20demonstra%C3%A7%C3%A3o%20para%20o%20meu%20escrit%C3%B3rio." target="_blank" rel="noopener">Pedir uma demonstração</a>
+          <a class="btn btn-line" href="#planos">Ver o plano</a>
+          <a class="btn btn-line" href="https://iuris.lexxosistemas.com.br/index.php/admin/login">Entrar no sistema</a>
+        </div>
+        <small>R$ 49,90 por mês. Atendimento pelo WhatsApp (43) 99937-1415.</small>
+      </div>
+      <div class="proc-stage" aria-hidden="true">
+        <div class="proc">
+          <span class="p-aviso">exemplo</span>
+          <div class="p-top"><span>PROCESSO</span><span class="p-tag">Em andamento</span></div>
+          <h3>Ação de cobrança</h3>
+          <p class="p-sub">Cliente: Maria Souza Ltda.</p>
+          <div class="p-sep"></div>
+          <div class="p-row"><span>Tribunal</span><b>Vara Cível</b></div>
+          <div class="p-row"><span>Fase</span><b>Contestação</b></div>
+          <div class="p-row"><span>Responsável</span><b>Dr. André</b></div>
+          <div class="p-row"><span>Tarefa da equipe</span><b>Juntar documentos</b></div>
+          <div class="p-prazo">Próximo prazo: em 3 dias</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="como-funciona">
+    <div class="wrap">
+      <h2>Um dia no escritório, do começo ao fim</h2>
+      <p class="intro">Tudo o que a equipe precisa fica em um sistema só, no navegador do computador ou do celular. Menos papel solto, menos planilha, menos prazo esquecido.</p>
+      <ol class="day">
+        <li><span class="hour">08:30</span><h3>Abre o painel</h3><p>Os compromissos e os processos com prazo próximo aparecem logo na tela inicial.</p></li>
+        <li><span class="hour">10:00</span><h3>Cliente novo</h3><p>Cadastro com contatos e dados do cliente, e acesso se você quiser que ele acompanhe.</p></li>
+        <li><span class="hour">11:30</span><h3>Processo aberto</h3><p>Tribunal, categoria, fase e responsável, com tarefas distribuídas para a equipe.</p></li>
+        <li><span class="hour">15:00</span><h3>Documentos no lugar</h3><p>Arquivos guardados junto do processo, fáceis de achar quando precisar.</p></li>
+        <li><span class="hour">17:30</span><h3>Honorários</h3><p>Fatura e recibo emitidos, e o relatório de quanto entrou no mês.</p></li>
+      </ol>
+      <div class="also">
+        <div><strong>Clientes e contatos</strong><span>Cadastro completo, com histórico de processos de cada cliente.</span></div>
+        <div><strong>Processos</strong><span>Fases, tribunais, categorias, favoritos e arquivo de processos encerrados.</span></div>
+        <div><strong>Compromissos e prazos</strong><span>Agenda do escritório e aviso do que vence nos próximos dias.</span></div>
+        <div><strong>Tarefas da equipe</strong><span>Quem faz o quê, até quando, com comentários e lista de afazeres.</span></div>
+        <div><strong>Documentos</strong><span>Envio e organização de arquivos por processo e por cliente.</span></div>
+        <div><strong>Honorários, faturas e recibos</strong><span>Controle do que foi cobrado e recebido, com relatórios por mês, semana e cliente.</span></div>
+        <div><strong>Advogado, secretária e estagiário</strong><span>Três perfis de acesso, cada um vê e faz só o que o escritório permitir.</span></div>
+        <div><strong>Registro de atividades</strong><span>Fica anotado quem criou, alterou ou apagou cada coisa no sistema.</span></div>
+        <div><strong>Mensagens e avisos internos</strong><span>A equipe se comunica dentro do sistema, sem depender de grupo de conversa.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="wrap cols">
+      <blockquote>Menos tempo procurando papel, mais tempo para o cliente.</blockquote>
+      <div>
+        <p>O Iuris foi feito para o escritório que quer sair da pasta de papel e da planilha sem entrar num sistema pesado, caro e difícil de aprender. Tudo em português, com telas simples.</p>
+        <p>O suporte é feito pelo WhatsApp, por gente que conhece o sistema por dentro.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="wrap">
+      <h2>Plano</h2>
+      <p class="intro">Um plano só, com tudo incluído. Pagamento mensal por Pix, sem fidelidade.</p>
+      <div class="plans">
+        <article class="plan featured unico">
+          <h3>Iuris</h3>
+          <p class="for">Para o escritório de advocacia, pequeno ou médio.</p>
+          <div class="price">R$ 49,90 <small>por mês</small></div>
+          <p class="year">Sem taxa de adesão.</p>
+          <ul>
+            <li>Clientes, contatos e processos</li>
+            <li>Compromissos, prazos e tarefas</li>
+            <li>Documentos por processo</li>
+            <li>Honorários, faturas e recibos</li>
+            <li>Relatórios de ganhos</li>
+            <li>Perfis: advogado, secretário(a) e estagiário(a)</li>
+            <li>Registro de atividades</li>
+            <li>Suporte pelo WhatsApp e atualizações</li>
+          </ul>
+          <a class="btn btn-blue" href="https://wa.me/5543999371415?text=Ol%C3%A1%21%20Vi%20o%20Iuris%20no%20site%20da%20Lexxo%20e%20quero%20assinar%20para%20o%20meu%20escrit%C3%B3rio." target="_blank" rel="noopener">Quero assinar</a>
+        </article>
+      </div>
+      <p class="note">O Iuris organiza o escritório: ele não protocola petições nem consulta os tribunais automaticamente, e não emite nota fiscal. A conferência dos prazos processuais continua sendo responsabilidade do advogado. Veja os <a href="/iuris/termos/">termos de uso e a proteção dos dados (LGPD)</a>.</p>
+    </div>
+  </section>
+
+  <section class="light">
+    <div class="wrap faq">
+      <h2>Perguntas frequentes</h2>
+      <p class="intro">As dúvidas mais comuns de quem está conhecendo o Iuris.</p>
+      <details><summary>Preciso instalar alguma coisa?</summary><p>Não. O Iuris abre no navegador, no computador ou no celular. Depois que você assina, recebe o endereço do seu escritório e o login.</p></details>
+      <details><summary>Posso dar acessos diferentes para a equipe?</summary><p>Sim. Há três perfis prontos: advogado, secretário(a) e estagiário(a), cada um com permissões diferentes. O responsável pelo escritório ajusta o que cada perfil pode ver e fazer.</p></details>
+      <details><summary>Meus dados e os dos meus clientes ficam protegidos?</summary><p>O acesso exige login, cada pessoa vê só o que o perfil permite, e o sistema registra quem criou, alterou ou apagou informações. Os dados ficam em servidor no Brasil. Como a Lexxo trata os dados e o que cabe ao escritório estão nos <a href="/iuris/termos/">termos e na parte de LGPD</a>.</p></details>
+      <details><summary>Tem aplicativo para celular?</summary><p>Não há aplicativo na loja. O sistema abre normalmente no navegador do celular, e as telas se ajustam ao tamanho da tela.</p></details>
+      <details><summary>Posso cancelar quando quiser?</summary><p>Sim. O pagamento é mensal, por Pix, e não há fidelidade nem multa. Detalhes nos <a href="/iuris/termos/">termos</a>.</p></details>
+      <details><summary>O Iuris acompanha os processos nos tribunais sozinho?</summary><p>Não. Os andamentos e prazos são registrados pela sua equipe. O Iuris serve para organizar, lembrar e distribuir o trabalho, e não substitui a conferência dos prazos nos sistemas dos tribunais.</p></details>
+      <details><summary>Quem está por trás do Iuris?</summary><p>A Lexxo Sistemas, de Cambará, Paraná. O suporte é direto, pelo WhatsApp (43) 99937-1415.</p></details>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <h2>Quer ver o Iuris funcionando?</h2>
+      <p>Chame no WhatsApp e marque uma demonstração rápida, por chamada de vídeo.</p>
+      <div class="ctas">
+        <a class="btn btn-wa" href="https://wa.me/5543999371415?text=Ol%C3%A1%21%20Vi%20o%20Iuris%20no%20site%20da%20Lexxo%20e%20quero%20uma%20demonstra%C3%A7%C3%A3o%20para%20o%20meu%20escrit%C3%B3rio." target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-line" href="https://instagram.com/lexxosistemas" target="_blank" rel="noopener">Instagram @lexxosistemas</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Lexxo Sistemas</h4>
+        <p>Sistemas e aplicativos para o seu negócio funcionar melhor, prontos para usar ou feitos sob medida.</p>
+      </div>
+      <div>
+        <h4>Sistemas</h4>
+        <ul>
+          <li><a href="/food/">Lexxo Food</a></li>
+          <li><a href="/studio/">Lexxo Studio</a></li>
+          <li><a href="/iuris/">Iuris</a></li>
+          <li><a href="/#sistemas">Oficina OS (em breve)</a></li>
+          <li><a href="/sob-medida/">Sob medida</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5543999371415?text=Ol%C3%A1%21%20Vi%20o%20site%20da%20Lexxo%20Sistemas%20e%20quero%20saber%20mais." target="_blank" rel="noopener">WhatsApp (43) 99937-1415</a></li>
+          <li><a href="https://instagram.com/lexxosistemas" target="_blank" rel="noopener">Instagram @lexxosistemas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Informações</h4>
+        <ul>
+          <li><a href="/iuris/termos/">Termos do Iuris e LGPD</a></li>
+          <li><a href="/termos/">Termos de uso (Studio)</a></li>
+          <li><a href="/privacidade/">Privacidade</a></li>
+          <li><a href="/reembolso/">Reembolso (7 dias)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fim"><span>&copy; 2026 Lexxo Sistemas. Cambará, Paraná.</span><span>Lexxo Food, Lexxo Studio e Iuris são produtos da Lexxo Sistemas.</span></div>
+  </div>
+</footer>
+</body>
+</html>
