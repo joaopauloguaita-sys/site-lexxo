@@ -287,3 +287,8 @@ footer.rodape .fim { border-top: 1px solid rgba(255,255,255,.12); margin-top: 28
   .caixa { padding: 22px; }
   .offerbar .preco { font-size: 2rem; }
 }
+
+/* Lexxo PDF Extract: selo "Grátis" e ajuste dos blocos quando o total é ímpar */
+.badge.free { background: #FFF1BF; color: #7A5600; }
+.launcher .tile:last-child:nth-child(odd) { grid-column: 1 / -1; aspect-ratio: auto; min-height: 92px; }
+.cards .card:last-child:nth-child(odd) { grid-column: 1 / -1; }

@@ -1,0 +1,9 @@
+INSTALADOR LEXXO PDF EXTRACT (WINDOWS)
+
+1) Extraia o ZIP inteiro (botao direito > Extrair tudo).
+2) De dois cliques em "Instalar-Lexxo-PDF.bat".
+   - Se o Windows mostrar "O Windows protegeu o computador": clique em "Mais informacoes" e depois em "Executar assim mesmo".
+     (O aviso aparece porque o instalador ainda nao tem certificado pago; ele so copia o arquivo e cria o atalho.)
+3) Pronto: o icone da Lexxo aparece na Area de Trabalho e no Menu Iniciar. Abre em janela propria, sem internet.
+
+Para remover: Menu Iniciar > Lexxo PDF Extract > Desinstalar.
